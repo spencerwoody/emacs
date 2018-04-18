@@ -1,15 +1,13 @@
 
 (package-initialize)
 
-;; a change
-
 ;; load emacs 24's package system. Add MELPA repository.
 (when (>= emacs-major-version 24)
   (require 'package)
   (add-to-list
    'package-archives
    ;; '("melpa" . "http://stable.melpa.org/packages/") ; many packages won't show if using stable
-   '("melpa" . "http://melpa.org/packages/")
+   '("melpa" . "http://melpa.milkbox.net/packages/")
    t))
 
 (custom-set-variables
@@ -20,7 +18,7 @@
  '(custom-enabled-themes (quote (tango)))
  '(package-selected-packages
    (quote
-    (mediawiki imenu-anywhere imenus magit ace-window auto-complete ssh helm package+ ess)))
+    (hippie-exp-ext mediawiki imenu-anywhere imenus magit ace-window auto-complete ssh helm package+ ess)))
  '(show-paren-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -94,3 +92,13 @@
 
 (require 'magit)
 (global-set-key (kbd "C-x g") 'magit-status)
+
+;; ignore certain file extensions in dired
+(require 'dired-x)
+(setq-default dired-omit-files-p t) ; this is buffer-local variable
+(setq dired-omit-files
+    (concat dired-omit-files "\\|^\\..+$\\|\\.log$\\|\\.aux$\\|\\.rip$\\|\\.prv$\\"))
+(setq dired-omit-files (concat dired-omit-files "\\|^\\..+$"))
+
+;; disable auto-save
+(setq create-lockfiles nil)
