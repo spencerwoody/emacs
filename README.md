@@ -3,6 +3,11 @@
 
 Using GNU Emacs 25.3.1
 
+## Contents
+
+- `.emacs` and `.emacs.d/` are for Emacs configuration
+- `emacs-reference/` contains reference cards for Emacs, as well as packages I use frequently
+
 ## Install 
 
 To use this configuration, clone this repo to your local machine, then run this command from your terminal:
