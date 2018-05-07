@@ -16,12 +16,32 @@
 ;; autocomplete paired brackets
 (electric-pair-mode 1)
 
+;; ignore certain file extensions in dired
+(require 'dired-x)
+(setq-default dired-omit-files-p t) ; this is buffer-local variable
+(setq dired-omit-files
+    (concat dired-omit-files "\\|^\\..+$\\|\\.log$\\|\\.aux$\\|\\.rip$\\|\\.prv$\\"))
+(setq dired-omit-files (concat dired-omit-files "\\|^\\..+$"))
+
+;; Magit keybinding
+(require 'magit)
+(global-set-key (kbd "C-x g") 'magit-status)
+
 ;; helm (for smarter autocompletion)
 (require 'helm-config)
 (global-set-key (kbd "M-x") #'helm-M-x)
 (global-set-key (kbd "C-x r b") #'helm-filtered-bookmarks)
 (global-set-key (kbd "C-x C-f") #'helm-find-files)
 (helm-mode 1)
+
+;;; Polymode
+;;; MARKDOWN
+(add-to-list 'auto-mode-alist '("\\.md" . poly-markdown-mode))
+
+;;; R modes
+(add-to-list 'auto-mode-alist '("\\.Snw" . poly-noweb+r-mode))
+(add-to-list 'auto-mode-alist '("\\.Rnw" . poly-noweb+r-mode))
+(add-to-list 'auto-mode-alist '("\\.Rmd" . poly-markdown+r-mode))
 
 ;; AUCTeX configuration
 (setq font-latex-fontify-script nil) ;; Turn off fontification of underscores
@@ -52,6 +72,9 @@
 
 ;; set default font
 (set-frame-font "Inconsolata 12" nil t)
+
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -59,7 +82,9 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
- '(custom-enabled-themes (quote (tango-dark)))
+ '(ansi-color-names-vector
+   ["#2d3743" "#ff4242" "#74af68" "#dbdb95" "#34cae2" "#008b8b" "#00ede1" "#e1e1e0"])
+ '(custom-enabled-themes (quote (adwaita)))
  '(package-selected-packages
    (quote
     (company-reftex w3 ssh polymode magit helm-ebdb ess company auto-complete auctex ace-window))))
