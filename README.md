@@ -29,8 +29,11 @@ This bash script will overwrite your existing `.emacs` file and `.emacs.d/` dire
 - org
 - polymode
 - helm
+- ace-window
 - magit
-- auto-complete
+- vimish-fold
+- yasnippet
+- julia-mode
 
 ## Contact
 
