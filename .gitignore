@@ -1,4 +1,6 @@
 
+!.emacs.d/*
+
 ## Rproj stupid files
 .Rproj*
 
