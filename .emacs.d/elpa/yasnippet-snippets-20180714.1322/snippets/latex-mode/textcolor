@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: textcolor
+# key: tc
+# --
+\textcolor{${1:color}}{${2:text}}$0

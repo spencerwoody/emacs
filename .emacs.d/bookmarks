@@ -1,0 +1,105 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("BSS"
+ (filename . "~/Projects/BSS/")
+ (front-context-string . "approx-post\n  -r")
+ (rear-context-string . "96 Aug 12 15:26 ")
+ (position . 131))
+("batchprez"
+ (filename . "~/Projects/batchprez/")
+ (front-context-string . "format\n  drwxr-x")
+ (rear-context-string . "96 Sep 15 19:26 ")
+ (position . 199))
+("desj"
+ (filename . "/scp:stat16:/home/spencer/")
+ (front-context-string . "Desktop\n  drwxr-")
+ (rear-context-string . "96 Jul 23 23:11 ")
+ (position . 99))
+("website"
+ (filename . "~/Projects/website/")
+ (front-context-string . "site_build\n  drw")
+ (rear-context-string . "96 Sep 10 00:13 ")
+ (position . 131))
+("Templates"
+ (filename . "~/Templates/")
+ (front-context-string . "antergos-setup\n ")
+ (rear-context-string . "96 Aug  2 22:24 ")
+ (position . 127))
+("scratch"
+ (filename . "~/Desktop/scratch/")
+ (front-context-string . "DESCRIPTION-dumm")
+ (rear-context-string . "71 Aug 12 16:22 ")
+ (position . 132))
+("Desktop"
+ (filename . "~/Desktop/")
+ (front-context-string . "Papers -> /home/")
+ (rear-context-string . "28 Aug  2 21:59 ")
+ (position . 181))
+("Papers"
+ (filename . "~/Desktop/Papers/")
+ (front-context-string . "Asymptotics\n  dr")
+ (rear-context-string . "96 Aug  2 21:43 ")
+ (position . 135))
+("~"
+ (filename . "~/")
+ (front-context-string . "Projects -> /hom")
+ (rear-context-string . "36 Aug 12 15:32 ")
+ (position . 736))
+("saFAB"
+ (filename . "~/Projects/saFAB/")
+ (front-context-string . "build.R\n  -rw-r-")
+ (rear-context-string . "44 Aug 10 00:33 ")
+ (position . 131))
+("/stat16:~"
+ (filename . "/scp:stat16:/home/spencer/")
+ (front-context-string . "Desktop\n  drwxr-")
+ (rear-context-string . "96 Jul 23 23:11 ")
+ (position . 96))
+("gtd"
+ (filename . "~/gtd/")
+ (front-context-string . "gtd.org\n  -rw-rw")
+ (rear-context-string . "21 Aug  3 19:21 ")
+ (position . 122))
+("trips"
+ (filename . "~/org/trips/")
+ (front-context-string)
+ (rear-context-string . "58 Aug  3 21:20 ")
+ (position . 126))
+(".emacs"
+ (filename . "~/.emacs")
+ (front-context-string . "\n\n(package-initi")
+ (rear-context-string)
+ (position . 1))
+("UQ"
+ (filename . "~/Projects/UQ/")
+ (front-context-string . "Background\n  -rw")
+ (rear-context-string . "96 Aug  2 22:06 ")
+ (position . 130))
+("spaceposi"
+ (filename . "~/Projects/SPACEPOSI/")
+ (front-context-string . "beamer\n  drwxrwx")
+ (rear-context-string . "96 Aug  2 22:29 ")
+ (position . 145))
+("HTEreview"
+ (filename . "~/Projects/HTE/")
+ (front-context-string . "htereview.pdf\n  ")
+ (rear-context-string . "17 Aug  2 22:11 ")
+ (position . 138))
+("FABx"
+ (filename . "~/Projects/FABX/")
+ (front-context-string . "_aux\n  drwxrwxr-")
+ (rear-context-string . "96 Aug  2 22:16 ")
+ (position . 138))
+("ASTRAL"
+ (filename . "~/Projects/ASTRAL/")
+ (front-context-string . "README.md\n  -rw-")
+ (rear-context-string . "93 Aug  2 22:15 ")
+ (position . 132))
+("Projects"
+ (filename . "~/Projects/")
+ (front-context-string . "astral\n  drwxrwx")
+ (rear-context-string . "96 Aug  2 22:15 ")
+ (position . 126))
+)

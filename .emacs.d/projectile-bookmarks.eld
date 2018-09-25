@@ -1,0 +1,1 @@
+("~/pCloudDrive/Projects/ASTRAL/" "~/pCloudDrive/Projects/FABX/" "~/pCloudDrive/Projects/batchprez/" "~/pCloudDrive/Projects/spatial_mutation/" "~/Templates/" "~/pCloudDrive/Projects/BSS/")
